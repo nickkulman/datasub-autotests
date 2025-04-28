@@ -1,0 +1,15 @@
+# Исключить папку с установленными библиотеками
+node_modules/
+
+# Исключить папку с отчётами Playwright
+playwright-report/
+
+# Исключить кэш и артефакты Playwright
+test-results/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log

@@ -7,9 +7,9 @@ playwright-report/
 # Исключить кэш и артефакты Playwright
 test-results/
 
-# Системные файлы
+# ОС и редактор
 .DS_Store
-Thumbs.db
-
-# Логи
 *.log
+*.tsbuildinfo
+.idea/
+.vscode/

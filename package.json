@@ -8,7 +8,7 @@
     "test:headed": "playwright test --headed",
     "test:report": "playwright show-report"
   },
-  "author": "Ваше Имя",
+  "author": "Nick Kulman",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.44.0"

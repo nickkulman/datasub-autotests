@@ -2,15 +2,10 @@
   "name": "datasub-autotests",
   "version": "1.0.0",
   "description": "Автоматизированные тесты формы 'Request A Quote' для сайта qatest.datasub.com с использованием Playwright и TypeScript.",
-  "main": "datasub-autotests.ts",
   "scripts": {
-    "test": "playwright test",
-    "test:headed": "playwright test --headed",
-    "test:report": "playwright show-report"
+    "test": "npx playwright test"
   },
-  "author": "Nick Kulman",
-  "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.44.0"
+    "@playwright/test": "^1.43.1"
   }
 }
